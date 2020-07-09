@@ -1,5 +1,6 @@
 # Me
 
+![Lint](https://github.com/heavenshell/heavenshell/workflows/Lint/badge.svg)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 Software developer.
@@ -10,5 +11,5 @@ Software developer.
 
 ## Links
 
-- [pypi](https://pypi.org/user/ohyanagi/)
-- [npm](https://www.npmjs.com/~heavenshell)
+-   [pypi](https://pypi.org/user/ohyanagi/)
+-   [npm](https://www.npmjs.com/~heavenshell)
