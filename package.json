@@ -14,6 +14,7 @@
     "prettier": "2.0.5"
   },
   "scripts": {
+    "precommit": "lint-staged",
     "lint": "markdownlint README.md"
   },
   "husky": {
