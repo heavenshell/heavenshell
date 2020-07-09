@@ -19,4 +19,4 @@ template: |
 
   ## Compare
 
-  https://github.com/heavenshell/ts-lehre/compare/$PREVIOUS_TAG...$NEXT_PATCH_VERSION
+  https://github.com/heavenshell/heavenshell/compare/$PREVIOUS_TAG...$NEXT_PATCH_VERSION
