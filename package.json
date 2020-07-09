@@ -1,0 +1,24 @@
+{
+  "name": "readme",
+  "version": "1.0.0",
+  "description": "readme",
+  "author": "Shinya Ohyanagi",
+  "private": true,
+  "license": "UNLICENSED",
+  "main": "n/a",
+  "devDependencies": {
+    "husky": "4.2.5",
+    "lint-staged": "10.2.11",
+    "markdownlint-cli": "0.23.2",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.0.5"
+  },
+  "scripts": {
+    "lint": "markdownlint README.md"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
