@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Lint Code Base
-        uses: docker://github/super-linter:v3@sha256:7610d7c0caab2723f6605ffa92fde677e87c755f9e5746776ff7accac468d46d
+        uses: docker://github/super-linter:v3@sha256:30cee55a5eca06cdc988a87db3cbc6c52edd04bc43db2dde2031ff211a1945f1
         env:
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_MD: true
