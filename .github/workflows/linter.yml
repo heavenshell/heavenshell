@@ -15,9 +15,11 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: Lint Code Base
-        uses: docker://github/super-linter:v3@sha256:e50e27b6d38eb99f363a2115bed2f64845d756682fe85aebc09745b923462e76
+        uses: github/super-linter@v3
         env:
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_MD: true
@@ -25,3 +27,4 @@ jobs:
           VALIDATE_JSON: true
           VALIDATE_YAML: true
           DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
