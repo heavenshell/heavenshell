@@ -22,6 +22,7 @@ jobs:
         uses: github/super-linter@v3
         env:
           VALIDATE_ALL_CODEBASE: false
+          LINTER_RULES_PATH: .
           VALIDATE_MD: true
           VALIDATE_EDITORCONFIG: true
           VALIDATE_JSON: true
