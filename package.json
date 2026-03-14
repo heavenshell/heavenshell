@@ -15,7 +15,8 @@
   },
   "scripts": {
     "precommit": "lint-staged",
-    "lint": "markdownlint README.md"
+    "lint": "markdownlint README.md",
+    "prepare": "husky"
   },
   "husky": {
     "hooks": {

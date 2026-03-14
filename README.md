@@ -12,9 +12,9 @@ Software developer.
 
 ## Stats
 
-![heavenshell's github stats](https://github-readme-stats.vercel.app/api?username=heavenshell&show_icons=true&count_private=true&line_height=40)
+![heavenshell's github stats](https://github-readme-stats-fast.vercel.app/api?username=heavenshell&show_icons=true&count_private=true&line_height=40)
 
 ## Links
 
--   [pypi](https://pypi.org/user/ohyanagi/)
--   [npm](https://www.npmjs.com/~heavenshell)
+- [pypi](https://pypi.org/user/ohyanagi/)
+- [npm](https://www.npmjs.com/~heavenshell)
